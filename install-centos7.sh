@@ -17,6 +17,7 @@ echo
 
 # add epel and get up to date
 yum install -y epel-release
+yum install -y wget
 yum -y update
 yum install -y perl
 #
