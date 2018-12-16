@@ -237,3 +237,15 @@ echo    "login to the  http://$host/maia/login.php?super=register with created i
 
 # some useful aliases
 cp contrib/bashrc.local.sh /etc/profile.d/
+#BIND-SPF-DMARC
+yum install -y fail2ban
+yum install -y fail2ban-firewalld
+yum -y install certbot-apache yum-utils
+yum install -y httpd mod_ssl python-certbot-apache
+yum -y install mod_ssl
+yum install -y pypolicyd-spf
+yum install -y bind bind-utils
+yum  install -y mailx
+yum install -y curl rsync unzip 
+yum install -y opendmarc
+
