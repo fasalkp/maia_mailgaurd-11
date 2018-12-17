@@ -100,7 +100,7 @@ systemctl enable clamd.service
 systemctl enable httpd
 
 # provide config files
-/usr/bin/cp -f clamd.conf /etc/clam.d/
+/usr/bin/cp -f clamd.conf /etc/clamd.d/scan.conf
 /usr/bin/cp clamd.conf freshclam.conf /etc
 
 # fix clam/maia group memberships
