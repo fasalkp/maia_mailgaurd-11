@@ -177,6 +177,12 @@ pear channel-discover htmlpurifier.org
 pear install hp/HTMLPurifier
 pear list
 pear upgrade MDB2-beta
+pear install Image_Color
+pear install Image_Canvas-alpha
+pear install  Image_Graph-alpha
+pear install  Numbers_Roman
+pear install Numbers_Words-beta
+
 
 # non-interactive scrypt install
 yes | pecl install scrypt
